@@ -1,0 +1,109 @@
+body {
+    background-color: rgb(62, 20, 101);
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title {
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li {
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;
+    margin: 20px;
+    font-size: 20px;
+}
+
+a {
+    color: yellow;
+}
+
+a:hover {
+    color: rgb(184, 17, 103);
+    transition: 0,4s all;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    color: yellow
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+h2 {
+    font-size: 35px;
+    line-height: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+span {
+    color: rgb(184, 17, 103);
+}
+
+p {
+    line-height: 20px;
+    font-size: 14px;
+    max-width: 500px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+img {
+    width: 550px;
+}
+
+.login-btn {
+    border: 2px solid rgb(184, 17, 103);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.login-btn:hover {
+    background-color: rgb(184, 17, 103);
+    color: white;
+}
+
+button {
+    display: inline-block;
+    flex-direction: row;
+    width: 30%;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(184, 17, 103);
+    color: white;
+    border: none;
+}
+
+@media screen and (max-width: 760px) {
+    header {
+        flex-direction: column;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    img {
+        margin-top: 15px;
+    }
+
+}
