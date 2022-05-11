@@ -89,6 +89,11 @@ button {
     border: none;
 }
 
+button:hover {
+    background-color: white;
+    color: rgb(184, 17, 103);;
+}
+
 @media screen and (max-width: 760px) {
     header {
         flex-direction: column;
